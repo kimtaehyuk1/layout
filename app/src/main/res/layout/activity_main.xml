@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.481" />
 
     <EditText
-        android:id="@+id/et_id"
+        android:id="@+id/edit_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -44,6 +44,7 @@
         android:layout_marginTop="32dp"
         android:text="텍스트 가져오기"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
